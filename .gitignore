@@ -1,0 +1,62 @@
+# Django .gitignore
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+ECHO is on.
+# Django
+*.log
+*.pot
+db.sqlite3
+media/
+staticfiles/
+local_settings.py
+ECHO is on.
+# Environments
+.env
+.venv
+venv/
+env/
+ENV/
+env.bak/
+.env.local
+.env.development
+.env.test
+.env.production
+ECHO is on.
+# IDEs
+.idea/
+.vscode/
+.vs/
+ECHO is on.
+# Local files
+instance/
+.webassets-cache
+ECHO is on.
+# Temp/OS files
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+ECHO is on.
+# Celery
+celerybeat-schedule
+celerybeat.pid
+ECHO is on.
+# Coverage and testing
+.mypy_cache/
+.pytest_cache/
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+ECHO is on.
+# Database
+*.sqlite3
+*.sql
+*.bak
+*.db
